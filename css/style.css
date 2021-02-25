@@ -177,45 +177,47 @@ h3 {
 	}
 
 	.main-frame {
-		margin: 100px 165px;
+		margin: 0 auto;
+		margin-top: 130px;
 		display: grid;
-		grid-template-rows: 50% 50%;
+		grid-template-columns: fit-content(1fr);
 	}
 
 	.top-frame {
 		display: grid;
+		height: auto;
 		/* grid-template-columns: 50% 50%; */
-		grid-template-columns: 41.5% 58.5%;
+	}
+
+	.intro-container {
+		width: 570px;
 	}
 
 	.introduction-frame {
-		margin-top: 0;
 		text-align: left;
-		margin-bottom: 0;
+		margin: 0;
 	}
 
 	.rating-frame {
 		align-items: start;
 		justify-content: center;
+		grid-column-start: 2;
+		grid-column-end: 3;
 	}
 
 	.testimony-frame {
-		flex-direction: row;
-		align-items: unset;
-		padding-top: 70px;
+		display: inline-grid;
 	}
 
 	h1 {
 		margin: 0;
-		margin-bottom: 20px;
-		padding-right: 150px;
 		font-size: 3rem;
+		padding-right: 50px;
 	}
 
 	h3 {
-		font-size: 1.1rem;
 		line-height: 1.7;
-		padding-right: 100px;
+		font-size: 1.1rem;
 	}
 
 	#rating1,
@@ -252,10 +254,14 @@ h3 {
 
 	#tes-cont2 {
 		margin-top: 20px;
+		grid-column-start: 2;
+		grid-column-end: 3;
 	}
 
 	#tes-cont3 {
 		margin-top: 40px;
+		grid-column-start: 3;
+		grid-column-end: 4;
 	}
 
 	.comment {
