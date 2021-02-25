@@ -184,8 +184,8 @@ h3 {
 
 	.top-frame {
 		display: grid;
-		grid-template-columns: 50% 50%;
-		/* grid-template-columns: 41.5% 58.5%; */
+		/* grid-template-columns: 50% 50%; */
+		grid-template-columns: 41.5% 58.5%;
 	}
 
 	.introduction-frame {
@@ -196,6 +196,7 @@ h3 {
 
 	.rating-frame {
 		align-items: start;
+		justify-content: center;
 	}
 
 	.testimony-frame {
@@ -207,14 +208,14 @@ h3 {
 	h1 {
 		margin: 0;
 		margin-bottom: 20px;
-		padding-right: 250px;
+		padding-right: 150px;
 		font-size: 3rem;
 	}
 
 	h3 {
 		font-size: 1.1rem;
 		line-height: 1.7;
-		padding-right: 170px;
+		padding-right: 100px;
 	}
 
 	#rating1,
@@ -224,7 +225,8 @@ h3 {
 		justify-content: start;
 		max-height: 65px;
 		padding-bottom: 0;
-		width: 500px;
+		width: 444px;
+		height: 54px;
 	}
 
 	.stars {
@@ -237,6 +239,11 @@ h3 {
 	}
 	#rating3 {
 		margin-left: 100px;
+	}
+
+	.testimony-container {
+		width: 370px;
+		height: 250px;
 	}
 
 	.testimony-container:not(:last-child) {
@@ -252,6 +259,6 @@ h3 {
 	}
 
 	.comment {
-		font-size: 0.975rem;
+		font-size: 0.875rem;
 	}
 }
