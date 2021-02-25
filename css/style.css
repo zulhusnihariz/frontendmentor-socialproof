@@ -24,8 +24,6 @@ html {
 body {
 	position: relative;
 	background-color: var(--white);
-	display: flex;
-	flex-direction: column;
 	margin: 0;
 	line-height: 1.3;
 	font-size: 15px;
@@ -174,6 +172,10 @@ h3 {
 
 	#desktop-btm-bg {
 		transform: translate(40%, 40%);
+	}
+
+	body {
+		height: 0;
 	}
 
 	.main-frame {
