@@ -177,15 +177,15 @@ h3 {
 	}
 
 	.main-frame {
-		margin: 100px 300px;
-		margin-right: 0;
+		margin: 100px 165px;
 		display: grid;
 		grid-template-rows: 50% 50%;
 	}
 
 	.top-frame {
 		display: grid;
-		grid-template-columns: 41.5% 58.5%;
+		grid-template-columns: 50% 50%;
+		/* grid-template-columns: 41.5% 58.5%; */
 	}
 
 	.introduction-frame {
@@ -244,11 +244,11 @@ h3 {
 	}
 
 	#tes-cont2 {
-		margin-top: 35px;
+		margin-top: 20px;
 	}
 
 	#tes-cont3 {
-		margin-top: 70px;
+		margin-top: 40px;
 	}
 
 	.comment {
